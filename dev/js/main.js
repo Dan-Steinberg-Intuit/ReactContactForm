@@ -2,7 +2,7 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
 
-var ContactForm = require("./components/contactForm.js");
+var ContactForm = require("./components/ContactForm.js");
 
 ReactDOM.render(
 	<ContactForm />,
