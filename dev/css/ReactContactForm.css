@@ -1,0 +1,24 @@
+.contact-form {
+	font-family: Arial, Helvetica;
+	border: 3px solid darkblue;
+	border-radius: 5px;
+	width: 750px;
+	height: 500px;
+	margin: auto auto;
+	font-size: 14px;
+}
+
+.contact-form-label {
+	display: block;
+	width: 300px;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 36px;
+	color: darkblue;
+	font-weight: bold;
+}
+
+.submitButton {
+}
