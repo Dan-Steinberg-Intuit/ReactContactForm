@@ -5,6 +5,7 @@ var ReactDOM = require("react-dom");
 var FormLabel = require("./FormLabel.js");
 var SubmitButton = require("./SubmitButton");
 
+var ContactZip = require("./ContactZip.js");
 var ContactForm = React.createClass({
 
 	render: function() {
