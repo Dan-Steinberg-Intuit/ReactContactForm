@@ -5,8 +5,8 @@ var ReactDOM = require('react-dom');
 var ContactZip = React.createClass({
     render:function(){
         return (
-            <div>
-                <input type="number" placeholder="Zip Code"/>
+            <div className="zipcodediv">
+                <input type="number" placeholder="Zip Code" className="zipcode"/>
             </div>
         )
     }
