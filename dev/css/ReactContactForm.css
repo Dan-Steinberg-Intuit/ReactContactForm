@@ -1,9 +1,11 @@
 .contact-form {
+	font-family: Arial, Helvetica;
 	border: 3px solid darkblue;
 	border-radius: 5px;
 	width: 750px;
 	height: 500px;
 	margin: auto auto;
+	font-size: 14px;
 }
 
 .contact-form-label {
@@ -14,7 +16,9 @@
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 36px;
-	font-family: Arial, Helvetica;
 	color: darkblue;
 	font-weight: bold;
+}
+
+.submitButton {
 }
