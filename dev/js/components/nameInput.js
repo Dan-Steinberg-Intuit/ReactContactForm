@@ -5,8 +5,8 @@ var ReactDOM = require('react-dom');
 var NameInput = React.createClass({
     render:function(){
       return (
-        <div className="NameInput">
-          <input type="text" placeholder="Your Name" name="Name"/> <br></br>
+        <div>
+          <input className="NameInput" type="text" placeholder="Your Name" name="Name"/> <br></br>
         </div>
       )
     }
