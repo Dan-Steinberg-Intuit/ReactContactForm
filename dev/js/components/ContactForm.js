@@ -11,6 +11,10 @@ var ContactForm = React.createClass({
 		return (
 			<div className="contact-form">
 				<FormLabel />
+				<ContactName />
+				<ContactEmail />
+				<ContactPhone />
+				<ContactZip />
 				<SubmitButton />
 			</div>
 		)
