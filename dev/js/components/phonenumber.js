@@ -6,7 +6,7 @@ var PhoneNumber = React.createClass({
     render:function(){
         return (
             <div className="phoneNumberWrapper">
-                <input type="number" placeholder="Phone Number" name="phoneNumber" />
+                <input className="phoneNumber" type="tel" placeholder="Phone Number" name="phoneNumber" />
             </div>
         )
     }
