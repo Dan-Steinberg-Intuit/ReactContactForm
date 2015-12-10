@@ -4,6 +4,7 @@ var ReactDOM = require("react-dom");
 
 var FormLabel = require("./FormLabel.js");
 var SubmitButton = require("./SubmitButton");
+var PhoneNumber = require("./PhoneNumber")
 
 var ContactZip = require("./ContactZip.js");
 var ContactForm = React.createClass({
@@ -14,7 +15,7 @@ var ContactForm = React.createClass({
 				<FormLabel />
 				<ContactName />
 				<ContactEmail />
-				<ContactPhone />
+				<PhoneNumber />
 				<ContactZip />
 				<SubmitButton />
 			</div>
