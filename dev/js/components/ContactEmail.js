@@ -5,7 +5,7 @@ var ContactEmail = React.createClass ({
 	render: function () {
 		return (
 			<div>
-        		<input type="email" placeholder="email" /> <br />
+        		<input type="email" className="contact-email" placeholder="Email" /> <br />
       		</div>
 		)
 	}
